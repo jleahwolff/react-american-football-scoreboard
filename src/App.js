@@ -9,19 +9,19 @@ function App() {
   const [awayPoints, setAwayPoints] = useState(0);
 
   const homeScoredTD = e => {
-    setHomePoints(homePoints + 6);
+    setHomePoints(homePoints + 7);
   }
 
   const homeScoredFG = e => {
-    setHomePoints(homePoints +2);
+    setHomePoints(homePoints + 3);
   }
 
   const awayScoredTD = e => {
-    setAwayPoints(awayPoints + 6);
+    setAwayPoints(awayPoints + 7);
   }
 
   const awayScoredFG = e => {
-    setAwayPoints(awayPoints + 2);
+    setAwayPoints(awayPoints + 3);
   }
 
   return (
